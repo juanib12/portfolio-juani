@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/estilos.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>Juani - Desarrollador web</title>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <header class="navbar">
+    <nav>
+      <a href="#inicio" class="logo">
+        <img src="./assets/logo2.png" alt="logo">
+      </a>
+      <div>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobremi">Sobre m&iacute;</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div id="container-play">
+        <div class="theme"></div>
+
+        <a href="#" id="btn-play">
+          <audio loop src="assets/musica.mp3" type="audio/mp3" id="audio">
+          </audio>
+
+          <div class="play is-paused">
+            <i class='bx bx-pause-circle'></i>
+          </div>
+        </a>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- CURSOR -->
+
+  <div class="cursor">
+    <img src='./assets/disco_cursor.png'>
+  </div>
+
+  <!-- SECCIONES -->
+
+  <div class="main-container">
+    <div class="secciones">
+
+      <!-- INICIO -->
+
+      <section id="inicio">
+        <div class="bg">
+          <div class="disco animate"></div>
+        </div>
+
+        <header>
+          <strong>Hola!</strong>
+          <strong>Soy</strong>
+          <strong>Juani</strong>
+          <span>Desarrollador</span>
+          <span>Web</span>
+        </header>
+
+        <article>
+          <div>
+            <span class="arrow"></span>
+          </div>
+        </article>
+      </section>
+
+      <!-- SOBRE MI -->
+
+      <section id="sobremi" class="reveal">
+        <header>
+          <img src="./assets/sobremisvg.svg" alt="img-sobremi"/>
+          <strong>¿Qui&eacute;n soy?</strong>
+        </header>
+
+        <article>
+          <div>
+            <ul>
+              <li><i class='bx bxl-instagram-alt'></i><a href="#">Instagram</a></li>
+              <li><i class='bx bxl-linkedin-square'></i><a href="#">LinkedIn</a></li>
+              <li><i class='bx bxl-github'></i><a href="#">GitHub</a></li>
+            </ul>
+            <span>
+              Mi nombre es Juan, tengo 21 años, estudi&eacute; y me recib&iacute; como t&eacute;cnico universitario
+              en programaci&oacute;n, en la Universidad Tecnol&oacute;gica Nacional.
+              Adem&aacute;s estoy formandome de manera autodidacta, sobre todo lo relacionado al desarrollo
+              web tanto frontend como backend y he realizado varios cursos sobre ReactJS y NodeJS
+              en la plataforma Udemy.<br><br>
+
+              Adem&aacute;s de estudiar e informarme sobre el mundo IT, me gusta escuchar m&uacute;sica mientras
+              disfruto de un rico caf&eacute; ☕.
+            </span>
+
+          </div>
+        </article>
+      </section>
+
+      <!-- HABILIDADES -->
+
+      <section id="habilidades" class="reveal">
+        <header>
+          <strong>Tecnolog&iacute;as que aprend&iacute;</strong>
+        </header>
+        <article>
+          <ul>
+            <li>
+              <span>Conocimiento 1</span>
+              <div><span style="width: 50%;"></span></div>
+            </li>
+            <li>
+              <span>Conocimiento 2</span>
+              <div><span style="width: 20%;"></span></div>
+            </li>
+            <li>
+              <span>Conocimiento 3</span>
+              <div><span style="width: 70%;"></span></div>
+            </li>
+            <li>
+              <span>Conocimiento 4</span>
+              <div><span style="width: 90%;"></span></div>
+            </li>
+          </ul>
+          <div>
+            <img src="./assets/conocimiento.png" alt="img-conocimientos" />
+          </div>
+        </article>
+      </section>
+
+      <!-- PROYECTOS -->
+
+      <section class="carousel reveal" id="proyectos">
+        <header>
+          <strong>Proyectos que desarrolle</strong>
+        </header>
+        <ul class="slides">
+          <li class="slides-item slide-1" id="slide-1">
+            <article class="proyecto1">
+              <div>
+                <header>
+                  <h3>Titulo1</h3>
+                </header>
+                <!-- <img src="./assets/proyectoimg.jpg" alt="img-proyecto" /> -->
+                <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
+                  contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
+                  Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de
+                  usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo
+                  un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web
+                  usan el Lorem Ipsum como su texto por defecto.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="slides-item slide-2" id="slide-2">
+            <article class="proyecto2">
+              <div>
+                <header>
+                  <h3>Titulo2</h3>
+                </header>
+                <!-- <img src="./assets/proyectoimg.jpg" alt="img-proyecto" /> -->
+                <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
+                  contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
+                  Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de
+                  usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo
+                  un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web
+                  usan el Lorem Ipsum como su texto por defecto.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="slides-item slide-3" id="slide-3">
+            <article class="proyecto3">
+              <div>
+                <header>
+                  <h3>Titulo3</h3>
+                </header>
+                <!-- <img src="./assets/proyectoimg.jpg" alt="img-proyecto" /> -->
+                <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
+                  contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
+                  Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de
+                  usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo
+                  un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web
+                  usan el Lorem Ipsum como su texto por defecto.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="slides-item slide-4" id="slide-4">
+            <article class="proyecto4">
+              <div>
+                <header>
+                  <h3>Titulo4</h3>
+                </header>
+                <!-- <img src="./assets/proyectoimg.jpg" alt="img-proyecto" /> -->
+                <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
+                  contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
+                  Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de
+                  usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo
+                  un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web
+                  usan el Lorem Ipsum como su texto por defecto.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="slides-item slide-5" id="slide-5">
+            <article class="proyecto5">
+              <div>
+                <header>
+                  <h3>Titulo5</h3>
+                </header>
+                <!-- <img src="./assets/proyectoimg.jpg" alt="img-proyecto" /> -->
+                <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
+                  contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
+                  Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de
+                  usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo
+                  un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web
+                  usan el Lorem Ipsum como su texto por defecto.
+                </p>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <div class="carousel_nav">
+          <a class="slider-nav" href="#slide-1" aria-label="Go to slide 1">Proyecto 1</a>
+          <a class="slider-nav" href="#slide-2" aria-label="Go to slide 2">Proyecto 2</a>
+          <a class="slider-nav" href="#slide-3" aria-label="Go to slide 3">Proyecto 3</a>
+          <a class="slider-nav" href="#slide-4" aria-label="Go to slide 4">Proyecto 4</a>
+          <a class="slider-nav" href="#slide-5" aria-label="Go to slide 5">Proyecto 5</a>
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+
+      <section id="contacto" class="reveal">
+        <header>
+          <strong>Contacto</strong>
+        </header>
+        <article>
+          <div class="contacto-form">
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" placeholder="Email">
+            </div>
+            <div class="field">
+              <label for="asunto">Asunto</label>
+              <input id="asunto" type="text" name="asunto" placeholder="Asunto">
+            </div>
+            <div class="field text-area">
+              <span>Mensaje</span>
+              <textarea name="mensaje" id="mensaje" cols="30" rows="20" placeholder="Mensaje..."></textarea>
+            </div>
+            <footer>
+              <a href="#">Enviar</a>
+            </footer>
+          </div>
+          <div class="contacto-image">
+            <img src="./assets/contact.png" alt="img-contacto">
+          </div>
+        </article>
+      </section>
+
+
+    </div>
+  </div>
+
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
